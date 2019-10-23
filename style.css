@@ -3,10 +3,12 @@ background-color: #3B0086;
 background-color: #f4f4f4;
  */
 .cta-button {
-    padding: 5px 15px;
+    padding: 5px 20px;
     background-color: #e8491d;
     border: none;
     border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
 }
 .cta-button:hover {
     opacity: 0.8;
@@ -39,3 +41,60 @@ header h1 {
     padding: 10% 0;
 }
 /* End Styling Header */
+
+/* Styling Section-first */
+.section-first {
+    background-image: url(https://i.imgur.com/TnaS8D0.jpg);
+    /* height: 500px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+.overlay a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 15%;
+
+}
+.overlay a:hover {
+    color: #e8491d;
+}
+.overlay h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 15%;
+}
+.overlay p {
+    font-size: 30px;
+    padding: 30px 0;
+}
+/* end styling section-first */
+
+/* Styling form-section */
+.form-section {
+    background-color: #0E0B49;
+    color: white;
+}
+.form-section h3 {
+    padding: 7% 0;
+}
+.form-section form {
+    padding: 10% 0;
+}
+.form-section [type="email"] {
+    padding: 5px 70px 5px 0px;
+    border: none;
+    border-radius: 3px;
+}
+.form-section button {
+    margin-left: 15px;
+}
+/* end styling form-section */
