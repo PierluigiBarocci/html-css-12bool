@@ -40,7 +40,7 @@ header h1 {
 
 /* Styling Section-first */
 .section-first {
-    background-image: url(https://i.imgur.com/TnaS8D0.jpg);
+    background-image: url('https://i.imgur.com/TnaS8D0.jpg');
     /* height: 500px; */
     background-repeat: no-repeat;
     background-position: center;
