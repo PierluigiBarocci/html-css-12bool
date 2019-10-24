@@ -12,6 +12,7 @@
     display: table;
     clear: both;
 }
+
 [class*="col-"] {
     float: left;
 }

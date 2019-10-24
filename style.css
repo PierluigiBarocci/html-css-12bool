@@ -78,13 +78,16 @@ header h1 {
 .form-section {
     background-color: #0E0B49;
     color: white;
+    padding: 15px 0px;
 }
 .form-section h3 {
-    padding: 7% 0;
+    padding: 15px 0;
 }
-.form-section form {
-    padding: 10% 0;
+.form-section h3 {
+    padding: 15px 0;
+    text-align: center;
 }
+
 .form-section [type="email"] {
     padding: 5px 70px 5px 0px;
     border: none;
@@ -93,12 +96,15 @@ header h1 {
 .form-section button {
     margin-left: 15px;
 }
+.form-section [class*="offset"] {
+    padding: 15px 0;
+    text-align: center;
+}
 /* end styling form-section */
 
 /* styling possibilities*/
 .possibilities {
     text-align: center;
-    margin: 100px 0 100px 0;
 }
 .possibilities i {
     font-size: 100px;
@@ -110,6 +116,9 @@ header h1 {
 .possibilities p {
     width: 75%;
     margin: 0 auto;
+}
+.possibilities [class*="col-"] {
+    margin: 7% 0;
 }
 /* end styling possibilities */
 
